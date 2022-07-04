@@ -35,7 +35,7 @@ struct Character: Decodable, Identifiable {
  */
 extension Bundle {
     func decode <T: Decodable>(file: String) -> T {
-        guard let url = self.url(forResource: file, withExtension: "json") else {
+        guard let url = self.url(forResource: file, withExtension: "json") else { // Save OutPut
             fatalError("Could not find \(file) in the project")
         }
         guard let data = try? Data(contentsOf: url) else {
