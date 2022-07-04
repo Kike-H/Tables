@@ -3,49 +3,49 @@
         "id":1,
         "name": "Rick Sanchez",
         "age":70,
-        "img": "img"
+        "img": "Rick"
         
     },
     {
         "id":2,
         "name": "Morty Smith",
         "age":15,
-        "img": "img"
+        "img": "Morty"
         
     },
     {
         "id":3,
         "name": "Beth Smith",
         "age":34,
-        "img": "img"
+        "img": "Beth"
         
     },
     {
         "id":4,
         "name": "Summer Smith",
         "age":18,
-        "img": "img"
+        "img": "Summer"
         
     },
     {
         "id":5,
         "name": "Jerry Smith",
         "age":35,
-        "img": "img"
+        "img": "Jerry"
         
     },
     {
         "id":6,
         "name": "BirdPerson",
         "age":65,
-        "img": "img"
+        "img": "BirdPerson"
         
     },
     {
         "id":7,
         "name": "Squanchy",
         "age":110,
-        "img": "img"
+        "img": "Squanchy"
         
     }
 ]

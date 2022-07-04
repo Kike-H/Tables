@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct TableList: View {
+    let characters:[Character] = Character.allCharacters
     var body: some View {
         NavigationView {
-            List {
+            List (characters) {
+                c in CellView(character: c)
             }.navigationTitle(Text("Rick & Morty"))
         }
     }
