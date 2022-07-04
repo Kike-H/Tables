@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "name": "Rick Sanchez",
+        "age":70,
+        "img": "img"
+        
+    },
+    {
+        "id":2,
+        "name": "Morty Smith",
+        "age":15,
+        "img": "img"
+        
+    },
+    {
+        "id":3,
+        "name": "Beth Smith",
+        "age":34,
+        "img": "img"
+        
+    },
+    {
+        "id":4,
+        "name": "Summer Smith",
+        "age":18,
+        "img": "img"
+        
+    },
+    {
+        "id":5,
+        "name": "Jerry Smith",
+        "age":35,
+        "img": "img"
+        
+    },
+    {
+        "id":6,
+        "name": "BirdPerson",
+        "age":65,
+        "img": "img"
+        
+    },
+    {
+        "id":7,
+        "name": "Squanchy",
+        "age":110,
+        "img": "img"
+        
+    }
+]

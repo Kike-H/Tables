@@ -8,15 +8,16 @@
 import SwiftUI
 
 struct CellView: View {
+    let character: Character
     var body: some View {
         HStack {
-            Image("Morty")
+            Image("\(character.img)")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(maxWidth: 65)
                 .clipShape(Circle())
             Spacer()
-            Text("Morty").font(.title)
+            Text("\(character.name)").font(.title)
             Spacer()
             Image(systemName: "chevron.right")
                 .resizable()
@@ -25,12 +26,13 @@ struct CellView: View {
 
             
         }
-        .padding(13.0)
+        .padding(13)
     }
 }
 
 struct CellView_Previews: PreviewProvider {
     static var previews: some View {
-        CellView().previewLayout(.fixed(width: 400, height: 60))
+        let character = Character.sampleCharacter
+        CellView(character: character).previewLayout(.fixed(width: 400, height: 60))
     }
 }

@@ -11,11 +11,6 @@ struct TableList: View {
     var body: some View {
         NavigationView {
             List {
-                CellView()
-                CellView()
-                CellView()
-                CellView()
-                CellView()
             }.navigationTitle(Text("Rick & Morty"))
         }
     }

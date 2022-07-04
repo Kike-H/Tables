@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B9EFB8228728B8500AC7A5A /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EFB8128728B8500AC7A5A /* Character.swift */; };
+		4B9EFB8428728EF800AC7A5A /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B9EFB8328728EF800AC7A5A /* db.json */; };
 		4BF003F32872819F003E9E94 /* TablesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF003F22872819F003E9E94 /* TablesApp.swift */; };
 		4BF003F52872819F003E9E94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF003F42872819F003E9E94 /* ContentView.swift */; };
 		4BF003F7287281A1003E9E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF003F6287281A1003E9E94 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		4B9EFB8128728B8500AC7A5A /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		4B9EFB8328728EF800AC7A5A /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
 		4BF003EF2872819F003E9E94 /* Tables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF003F22872819F003E9E94 /* TablesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesApp.swift; sourceTree = "<group>"; };
 		4BF003F42872819F003E9E94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		4BF003F8287281A1003E9E94 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				4B9EFB8328728EF800AC7A5A /* db.json */,
 				4BF003F9287281A1003E9E94 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9EFB8428728EF800AC7A5A /* db.json in Resources */,
 				4BF003FA287281A1003E9E94 /* Preview Assets.xcassets in Resources */,
 				4BF003F7287281A1003E9E94 /* Assets.xcassets in Resources */,
 			);
