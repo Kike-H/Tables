@@ -23,12 +23,6 @@ struct CellView: View {
                 .clipShape(Circle())
             Spacer() // Make a space between Image and text
             Text("\(character.name)").font(.title)
-            Spacer() // Make a space betwwen Text and Image
-            Image(systemName: "chevron.right") // Icon >
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(maxWidth: 15)
-
             
         }
         .padding(13) // Make a padding
