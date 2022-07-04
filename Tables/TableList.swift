@@ -7,13 +7,19 @@
 
 import SwiftUI
 
+
+/*
+ This file generate a list
+ of Characters like a Table
+ */
+
 struct TableList: View {
     let characters:[Character] = Character.allCharacters
     var body: some View {
-        NavigationView {
+        NavigationView { // Naviagtion for screens
             List (characters) {
-                c in CellView(character: c)
-            }.navigationTitle(Text("Rick & Morty"))
+                c in CellView(character: c) // For each character generate a CellView
+            }.navigationTitle(Text("Rick & Morty")) // Title of the list
         }
     }
 }

@@ -5,6 +5,10 @@
 //  Created by Kike Hernandez  on 03/07/22.
 //
 
+/*
+ This file make a view for a cell
+ */
+
 import SwiftUI
 
 struct CellView: View {
@@ -12,22 +16,22 @@ struct CellView: View {
     var body: some View {
         NavigationLink(destination: DetailView(character: character)) {
         HStack {
-            Image("\(character.img)")
+            Image("\(character.img)") // Image
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(maxWidth: 65)
                 .clipShape(Circle())
-            Spacer()
+            Spacer() // Make a space between Image and text
             Text("\(character.name)").font(.title)
-            Spacer()
-            Image(systemName: "chevron.right")
+            Spacer() // Make a space betwwen Text and Image
+            Image(systemName: "chevron.right") // Icon >
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(maxWidth: 15)
 
             
         }
-        .padding(13)
+        .padding(13) // Make a padding
         }
     }
 }
