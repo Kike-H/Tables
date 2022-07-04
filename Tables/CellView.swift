@@ -10,6 +10,7 @@ import SwiftUI
 struct CellView: View {
     let character: Character
     var body: some View {
+        NavigationLink(destination: DetailView(character: character)) {
         HStack {
             Image("\(character.img)")
                 .resizable()
@@ -27,6 +28,7 @@ struct CellView: View {
             
         }
         .padding(13)
+        }
     }
 }
 
